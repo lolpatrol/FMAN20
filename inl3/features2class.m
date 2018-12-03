@@ -3,7 +3,7 @@ function y = features2class(x, classification_data)
     
 % Number of neighbors, try something higher than 1, if you
 % want to crash the program. Let's call it a "feature" for the moment.
-k = 7;
+k = 1;
 
 % Get the training data
 letters = classification_data{1};
